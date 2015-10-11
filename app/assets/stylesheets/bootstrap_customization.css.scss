@@ -16,8 +16,17 @@ body {
   font-family: Alegreya, serif;
 }
 
-.container {
-  padding: 2em;
+.logo {
+  padding-top:1em;
+  padding-bottom: 1em;
+}
+
+.header {
+  padding-top: 4em;
+}
+
+.button {
+  padding: 4em;
 }
 
 .form-control{
@@ -29,9 +38,18 @@ body {
    
 }
 
+.form-control:click {
+ ont-family: "Source Sans Pro", serif; 
+}
+
 .btn-default:hover {
   background-color:white;
   color: #D2527F;
+  border-color: white;
+}
+
+.btn-default:active {
+  border-color: white;
 }
 
 

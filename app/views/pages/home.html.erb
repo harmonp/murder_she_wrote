@@ -1,17 +1,17 @@
 <nav class = "navbar navbar-default">
   <div class = "logo">
-<%= image_tag("murderlogo.png", :alt => "Murder She Wrote") %>
+<%= image_tag("murderlogo3.png", :alt => "Murder She Wrote") %>
   </div> 
 </nav>
 <div>
   <!--<% form_tag %> -->
-  <div class= "container">
-    <h3>I want episodes where Jessica is</h3>
+  <div class= "header">
+    <h2>Give me an episode where Jessica is</h2>
   </div>
-  <div class= "container">
-    <%= select_tag "Who you wanna see?","<option>in Cabot Cove with the sexually constipated sherrif/doctor</option><option>being mansplained but then OH WAIT she knows like a gazillion times more</option><option>pretending to be politely interested in sports (spoiler alert: she doesn't get them)</option><option>Courtney Cox's aunt, post-Springsteen</option><option>solving a murder for George Clooney</option><option>being cultured as shit in the Big City</option><option>visiting a mysterious random wealthy friend</option>" .html_safe, class: "form-control" %>
+  <div class= "selection">
+    <%= select_tag "Who you wanna see?","<option>being mansplained but then OH WAIT she knows like a gazillion times more</option><option>in Cabot Cove with the sexually constipated sherrif/doctor</option><option>basically a life coach to Courtney Cox in her post-Springsteen days</option></option><option>visiting a mysterious random wealthy friend</option><option>politely pretending to be interested in sports (spoiler alert: she doesn't get them)</option><option>solving a murder for 1980s weird voice George Clooney</option><option>being cultured as shit in the Big City</option><option>politely pretending to be interested in modern technology</option>" .html_safe, class: "form-control" %>
   </div>
-  <div class="container">
+  <div class="button">
     <%= submit_tag "Give Me Some Lansbury", class: "btn btn-default btn-lg" %>
   </div>
  </div>
