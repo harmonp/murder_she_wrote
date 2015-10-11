@@ -1,2 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+
+$navbar-default-bg: white;
+$btn-default-bg: #D2527F; 
+$btn-default-color: white;
+$btn-default-font-family: Alegreya, serif;
+$headings-font-family: Alegreya, serif; 
 @import 'bootstrap';
+
+
+body {
+  background-color: #D2527F;
+  text-align: center;
+  color: white;
+  font-family: Alegreya, serif;
+}
+
+.container {
+  padding: 2em;
+}
+
+.form-control{
+  display: inline-block;
+  width: 38.5em;
+  height: 3em;
+  margin: .25em;
+  font-family: "Source Sans Pro", serif;
+   
+}
+
+.btn-default:hover {
+  background-color:white;
+  color: #D2527F;
+}
+
 
