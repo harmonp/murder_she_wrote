@@ -8,11 +8,11 @@
   <div class= "header">
     <h2>Give me an episode where Jessica is</h2>
   </div>
-  <div class= "selection">
-    <%= select_tag "Who you wanna see?","<option>being mansplained but then OH WAIT she knows like a gazillion times more</option><option>in Cabot Cove with the sexually constipated sherrif/doctor</option><option>basically a life coach to Courtney Cox in her post-Springsteen days</option></option><option>visiting a mysterious random wealthy friend</option><option>politely pretending to be interested in sports (spoiler alert: she doesn't get them)</option><option>solving a murder for 1980s weird voice George Clooney</option><option>being cultured as shit in the Big City</option><option>politely pretending to be interested in modern technology</option>" .html_safe, class: "form-control" %>
+  <div class= "episode_selection">
+    <%= select_tag(:episode_id,options_for_select([['being mansplained but then OH WAIT she knows like a gazillion times more', 1], ['in Cabot Cove with the sexually constipated sherrif/doctor', 2],['life coaching Courtney Cox in her post-Springsteen days', 3],['visiting a mysterious random wealthy friend', 4],['politely pretending to be interested in sports (spoiler alert: she does not get them)', 5],["solving a murder for 1980's big hair, weird voice George Clooney", 6], ['politely pretending to be interested in modern technology', 7]]), {:class => 'form-control'}) %>
   </div>
   <div class="button">
-    <%= submit_tag "Give Me Some Lansbury", class: "btn btn-default btn-lg" %>
+      <%= submit_tag "Angela Lansearchy", class: "btn btn-default btn-lg" %>
   </div>
  </div>
 
